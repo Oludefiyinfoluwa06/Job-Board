@@ -1,11 +1,9 @@
 import React from 'react'
 
 const Button = () => {
-    return (
-        <button>
-            Signup
-        </button>
-    )
+  return (
+    <div>sign up</div>
+  )
 }
 
 export default Button
