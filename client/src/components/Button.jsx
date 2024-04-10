@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = () => {
   return (
-    <div>sign up</div>
+    <form>sign up</form>
   )
 }
 
