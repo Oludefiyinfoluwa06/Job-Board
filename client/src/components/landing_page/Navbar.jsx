@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useGSAP } from '@gsap/react';
-import Button from './Button';
+import Button from '../Button';
 import { FaBars } from 'react-icons/fa'
 import gsap from 'gsap';
 
