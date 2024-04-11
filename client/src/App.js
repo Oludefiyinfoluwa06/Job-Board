@@ -8,18 +8,13 @@ import {
   RouterProvider
 } from 'react-router-dom';
 
-// Layouts imports
-import RootLayout from "./layouts/RootLayout";
-
 // Routes imports
 import LandingPage from "./routes/LandingPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path='/' element={<RootLayout />}>
-        <Route index element={<LandingPage />} />
-      </Route>
+      <Route index element={<LandingPage />} />
     </>
   )
 );
