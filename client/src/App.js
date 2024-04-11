@@ -14,7 +14,7 @@ import LandingPage from "./routes/LandingPage";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route index element={<LandingPage />} />
+      <Route path='/' element={<LandingPage />} />
     </>
   )
 );
