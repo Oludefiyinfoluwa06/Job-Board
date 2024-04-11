@@ -1,8 +1,8 @@
 import React from 'react';
 
-import heroImg from '../assets/hero-image.png';
+import heroImg from '../../assets/hero-image.png';
 import { FaSearch } from 'react-icons/fa';
-import Button from './Button';
+import Button from '../Button';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
