@@ -28,7 +28,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className='flex md:items-center items-start justify-between gap-10 py-10 md:flex-row flex-col h-[calc(100vh-100px)]'>
+        <div className='flex md:items-center items-start justify-between gap-10 py-10 md:flex-row flex-col'>
             <div className='flex items-start justify-between gap-3 flex-col w-full'>
                 <h1 id='right' className='capitalize sm:text-[50px] ss:text-[30px] text-[25px] font-bold text-darkBlue'>The <span className='text-normalBlue'>easiest way</span> <br /> to get your new job</h1>
                 <p id='right' className='xs:text-[20px] text-[15px]'>Each month, more than 3 million job seekers turn to <br />website in their search for work, making over 140,000 applications every single day</p>
