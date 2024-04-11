@@ -98,7 +98,7 @@ const FeaturedJobs = () => {
 
             <div className='flex items-center justify-center flex-wrap gap-5 mt-4'>
                 {featuredJobs.map(item => (
-                    <div key={item.id} id='fj-box' className='relative md:w-[calc(100%/3-20px)] ss:w-[calc(100%/2-20px)] w-full h-[300px] p-4 border border-slate-300 rounded-md'>
+                    <div key={item.id} id='fj-box' className='relative md:w-[calc(100%/3-20px)] w-full h-[300px] p-4 border border-slate-300 rounded-md'>
                         <h3 className='font-bold text-darkBlue text-[23px]'>{item.title}</h3>
                         <div className='flex items-center justify-start gap-4 text-slate-400 text-[13px] my-[7px]'>
                             <div className='flex items-center justify-start gap-2'>
@@ -110,14 +110,14 @@ const FeaturedJobs = () => {
                                 <p>{item.date}</p>
                             </div>
                         </div>
-                        <p className='text-[16px]'>{item.desc}</p>
+                        <p className='md:text-[16px] text-[14px] my-[20px]'>{item.desc}</p>
                         <div className='flex items-center justify-start gap-3 mt-3'>
                             {item.skills.map((skill, index) => (
                                 <p key={index} className='px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-[14px]'>{skill}</p>
                             ))}
                         </div>
                         <Link to={item.link} className='absolute bottom-[20px] right-[20px]'>
-                            <Button text='Apply now' bg={true} />
+                            <Button text='Apply now' bg={false} />
                         </Link>
                     </div>
                 ))}
