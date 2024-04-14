@@ -3,6 +3,9 @@ import Navbar from '../components/landing_page/Navbar';
 import Hero from '../components/landing_page/Hero';
 import Categories from '../components/landing_page/Categories';
 import FeaturedJobs from '../components/landing_page/FeaturedJobs';
+import About from '../components/landing_page/About';
+import TopRecruiters from '../components/landing_page/TopRecruiters';
+import Cta from '../components/landing_page/Cta';
 
 const LandingPage = () => {
     return (
@@ -14,6 +17,9 @@ const LandingPage = () => {
             <div className="xs:px-10 px-5 py-4">
                 <Categories />
                 <FeaturedJobs />
+                <About />
+                <TopRecruiters />
+                <Cta />
             </div>
         </div>
     );
