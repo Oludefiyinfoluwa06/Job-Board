@@ -47,9 +47,6 @@ const Navbar = () => {
                         <NavLink className='hover:text-normalBlue' to='/categories'>Categories</NavLink>
                     </li>
                     <li className='nav-link'>
-                        <NavLink className='hover:text-normalBlue' to='/about'>About</NavLink>
-                    </li>
-                    <li className='nav-link'>
                         <NavLink className='hover:text-normalBlue' to='/jobs'>Jobs</NavLink>
                     </li>
                     <li className='nav-link'>
@@ -79,9 +76,6 @@ const Navbar = () => {
                     </li>
                     <li className='w-full mb-3'>
                         <NavLink className='hover:text-normalBlue' to='/jobs'>Jobs</NavLink>
-                    </li>
-                    <li className='w-full mb-3'>
-                        <NavLink className='hover:text-normalBlue' to='/about'>About</NavLink>
                     </li>
                     <li className='w-full mb-3'>
                         <NavLink className='hover:text-normalBlue' to='/recruiters'>Recruiters</NavLink>
