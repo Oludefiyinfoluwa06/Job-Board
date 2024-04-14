@@ -36,7 +36,7 @@ const Cta = () => {
             <img src={cta1} alt="Cta1" className='md:block hidden' id='cta' />
 
             <div className='flex items-center justify-center flex-col gap-2' id='cta'>
-                <h1 className='text-2xl font-bold text-darkBlue'>Get updated with new jobs</h1>
+                <h1 className='text-2xl font-bold text-darkBlue text-center'>Get updated with new jobs</h1>
                 <form className='flex items-center justify-center gap-3 bg-white p-3 rounded-lg'>
                     <FaEnvelope className='text-3xl text-darkBlue' />
                     <input type="text" placeholder='Enter your email address' className='outline-none border-0 text-[13px] md:w-[200px] w-full' />
