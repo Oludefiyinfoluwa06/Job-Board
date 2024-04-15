@@ -9,7 +9,7 @@ import Footer from '../components/landing_page/Footer';
 
 const LandingPage = () => {
     return (
-        <div className='font-poppins'>
+        <div>
             <div className='bg-lightBlue xs:px-10 px-5 py-4'>
                 <Hero />
             </div>

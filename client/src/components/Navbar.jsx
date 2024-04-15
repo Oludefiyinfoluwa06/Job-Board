@@ -60,7 +60,7 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div id='btn'>
-                        <Link to='/login'>
+                        <Link to='/signin'>
                             <Button text='Login' bg={true} />
                         </Link>
                     </div>

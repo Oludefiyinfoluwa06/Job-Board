@@ -10,13 +10,19 @@ import {
 
 // Routes imports
 import LandingPage from "./routes/LandingPage";
+import SigninPage from './routes/auth/SigninPage';
+
+// Layout imports
 import RootLayout from "./layouts/RootLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<RootLayout />}>
-      <Route index element={<LandingPage />} />
-    </Route>
+    <>
+      <Route path='/signin' element={<SigninPage />} />
+      <Route path='/' element={<RootLayout />}>
+        <Route index element={<LandingPage />} />
+      </Route>
+    </>
   )
 );
 
