@@ -6,6 +6,7 @@ import FeaturedJobs from '../components/landing_page/FeaturedJobs';
 import About from '../components/landing_page/About';
 import TopRecruiters from '../components/landing_page/TopRecruiters';
 import Cta from '../components/landing_page/Cta';
+import Footer from '../components/landing_page/Footer';
 
 const LandingPage = () => {
     return (
@@ -20,6 +21,7 @@ const LandingPage = () => {
                 <About />
                 <TopRecruiters />
                 <Cta />
+                <Footer />
             </div>
         </div>
     );
