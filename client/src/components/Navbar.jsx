@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useGSAP } from '@gsap/react';
-import Button from '../Button';
+import Button from './Button';
 import { FaBars } from 'react-icons/fa'
 import gsap from 'gsap';
 
@@ -36,7 +36,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className='flex items-center justify-between gap-2'>
+        <nav className='flex items-center justify-between gap-2 bg-lightBlue xs:px-10 px-5 py-4'>
             <label className='text-darkBlue text-[30px] font-bold logo'>LOGO</label>
             <div className='md:flex hidden items-center justify-end gap-10'>
                 <ul className='md:flex items-center justify-center gap-8'>

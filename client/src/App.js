@@ -10,12 +10,13 @@ import {
 
 // Routes imports
 import LandingPage from "./routes/LandingPage";
+import RootLayout from "./layouts/RootLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <>
-      <Route path='/' element={<LandingPage />} />
-    </>
+    <Route path='/' element={<RootLayout />}>
+      <Route index element={<LandingPage />} />
+    </Route>
   )
 );
 
