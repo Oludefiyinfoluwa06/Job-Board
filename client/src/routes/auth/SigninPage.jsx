@@ -1,6 +1,6 @@
 import React from 'react'
-// import Btn1SignUp from '../components/ButtonSignUp'
 import { NavLink } from 'react-router-dom'
+import Button from '../../components/Button'
 
 const SigninPage = () => {
   return (
@@ -23,7 +23,7 @@ const SigninPage = () => {
            <div className="descends">
             <p className=" text-blue-400 py-4 font-semibold tracking-normal text-base">Don't have an account?</p>
             <div className="conts">
-              {/* <Btn1SignUp/> */}
+              <Button text='Sign in' />
           </div>
 
            </div>
